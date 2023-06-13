@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float,Clear ,Elementos block e Inline </title>
+    <style>
+        .article{
+            background-color: cornflowerblue;
+           float: none;
+            
+        }
+        .div1{
+            background-color: antiquewhite;
+            width: 20%;
+            float: left;
+            margin: 0;
+            padding: 30px;
+        }
+        .div2{
+            background-color: green;
+            width: 20%;
+            float: right;
+            margin: 0;
+            padding: 30px;
+           
+        }
+        .nav{
+          
+            margin-top: 40px;
+            background-color: bisque;
+            clear: both;
+
+        }
+        .table1{
+            background-color: rgb(243, 215, 215);
+            width: 40%;
+            height: auto;
+            float: left;
+            margin: 0;
+            padding: 30px;
+        }
+        .table2{
+            background-color: rgb(228, 206, 206);
+            width: 40%;
+
+            height: auto;
+            float: right;
+            margin: 0;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Float left:</h2>
+    <p>Elemento flutua à esquerda de seu container</p>
+
+    <h2>Float right:</h2>
+    <p>Elemento flutua à direita de seu container</p>
+    
+    <h2>Float none:</h2>
+    <p>Elemento não flutua (será exibido exatamente onde ocorre no texto.Isso é padrão!</p>
+    <h2>Float inherit:</h2>
+    <p>Elemento herda o valor float de seu pai.</p>
+
+    <h2>Clear:</h2>
+
+    <p>Quando queremos a float , e queremos que o próximo elemento fique abaixo(não à direita ou a esquerda), teremos que usar a propriedade <strong>Clear</strong></p>
+
+    <article class="article">
+        <h1>Elementos Block</h1>
+
+        <ol  class="div1">
+           <div>
+            <li>addres</li>
+            <li>article</li>
+            <li>aside</li>
+            <li>canvas</li>
+            <li>dd</li>
+            <li>div</li>
+            <li>dl</li>
+            <li>dt</li>
+            <li>fieldset</li>
+            <li>figcaption</li>
+            <li>figure</li>
+            <li>footer</li>
+            <li>form</li>
+            
+           </div>
+           </ol>
+           <ol  class="div2">
+           <div>
+            <li>h1- h6</li> 
+            <li>hr</li>
+            <li>li</li>
+            <li>main</li>
+            <li>nav</li>
+            <li>noscript</li>
+            <li>ol</li>
+            <li>output</li>
+            <li>p</li>
+            <li>pre</li>
+            <li>section</li>
+            <li>table</li>
+            <li>tfoot</li>
+            <li>ul</li>
+           </div>
+        </ol>
+
+       
+    </article>
+    <nav class="nav">
+        <h1>Elementos Inline</h1>
+      <div class="table1">
+        <ol>
+            <li>a</li>
+            <li>acronym</li>
+            <li>b</li>
+            <li>bdo</li>
+            <li>big</li>
+            <li>br</li>
+            <li>button</li>
+            <li>cite</li>
+            <li>code</li>
+            <li>dfn</li>
+            <li>em</li>
+            <li>i</li>
+            <li>img</li>
+            <li>input</li>
+            <li>kbd</li>
+            <li>label</li>
+        </ol> 
+    </div>
+       <div class="table2">
+        <ol>
+            <li>map</li>
+            <li>object</li>
+            <li>q</li>
+            <li>samp</li>
+            <li>script</li>
+            <li>small</li>
+            <li>spam</li>
+            <li>strong</li>
+            <li>sub</li>
+            <li>sup</li>
+            <li>textarea</li>
+            <li>time</li>
+            <li>tt</li>
+            <li>var</li>
+            
+        </ol>
+    </div>
+    </nav>
+</body>
+</html>
