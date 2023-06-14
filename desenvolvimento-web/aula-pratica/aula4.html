@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <caption>Formulario</caption>
+    <form action="" method="post"><!--vai encaminhar oculto-->
+
+        <br><br>
+
+        <label for="nome">Nome:</label> <!--label é uma tag de acessibilidade-->
+        <input type="text" name="nome" placeholder="Digite seu nome" size="30" maxlength="80">
+        <br> <br>
+        <label for="senha" >Senha:</label>
+        <input type="password" type="password" name="senha"  size="8" maxlength="8">
+          <br> <br>
+        <fieldset>
+            <label for="linguagem">Linguagem que tem interesse</label>
+
+            <br> <br>
+
+            <input type="checkbox" name="linguagem[]" value="c++" id="">C++
+            <input type="checkbox" name="linguagem" value="Python" id="">Python
+            <input type="checkbox" name="linguagem" value="JavaScript" id="">Jascript
+            <input type="checkbox" name="linguagem" value="html" id="">HTML
+        </fieldset>
+            <br> <br>
+        <label for="linguagemEscolhida">Linguagem que irá cursar agora!</label>
+        <br><br>
+        <!--não esquecer name deve ser o mesmo para todos ,para poder marcar somente 1-->
+        <input type="radio" name="curso" value="c++">C++
+        <input type="radio" name="curso" value="python">Python
+        <input type="radio" name="curso" value="JavaScript">Jascript
+        <input type="radio" name="curso" value="HTML">HTML
+<br><br>
+
+<caption>Selecione um Opção:</caption>
+
+        <select name="" id="">
+        
+
+            <option value="python">Python</option>
+            <option value="c++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="php">PHP</option>
+            <option value="html">html</option>
+            <option value="java">java</option>
+        </select> <br><br>
+
+        <input type="submit" type="submit" value="enviar">
+
+
+    </form>
+    
+</body>
+</html>
