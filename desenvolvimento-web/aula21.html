@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        html{
+            font-size: 10px;
+            box-sizing: border-box;
+
+        }
+        body{
+            font: 2em sans-serif;
+            background: rgb(238, 232, 222);
+            columns: #333;
+            margin: 10px;
+
+        }
+        .box {
+            color: white;
+            border: 4px solid #333;
+            font-size: 2.6em;
+            padding: 10px;
+        }
+        .box1 {
+            background: green;
+        }
+        .box2 {
+            background: rgb(128, 115, 0);
+        }
+        .box3 {
+            background: rgb(28, 0, 128);
+        }
+        .box4 {
+            background: rgb(128, 0, 49);
+        }
+        .box5 {
+            background: green;
+        }
+        .box6 {
+            background: green;
+        }
+        .box7 {
+            background: rgb(70, 0, 128);
+        }
+        .box8 {
+            background: rgb(105, 128, 0);
+        }
+        .box9 {
+            background: green;
+        }
+        .box {
+            background: rgb(119, 122, 119);
+            border-color: #333;
+            color: black;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 80px 50px 80px 100px;
+            grid-template-rows: 80px 100px 100px;
+            gap: 5px; /* fatia o grid em pedaços*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="box4">4</div>
+        <div class="box5">5</div>
+        <div class="box6">6</div>
+        <div class="box7">7</div>
+        <div class="box8">8</div>
+        <div class="box8">9</div>
+    </div>
+    
+</body>
+</html>
