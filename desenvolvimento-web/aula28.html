@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criando site</title>
+    <style>
+        body{ 
+            margin: 0 10px;
+        }
+        h1{
+            font-size: 16px;
+            margin: 0 0 16px 0;
+            width: 100%;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            margin: 16px;
+           
+            padding: 0;
+
+        }
+        li > b{
+            color: red ;
+            font-size: 14px;
+        }
+        button {
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            color: white;
+            background-color: rgb(153, 51, 56);
+            font-size: 14px;
+            width: 50%;
+            margin: auto;
+        }
+        .container {
+            display: flex;
+            flex-flow: column;/*ajuda organizar*/
+            justify-content: center; /*organiza tudo centro*/
+            max-width: 1200px;
+            margin: auto; /*centraliza tudo*/
+
+        }
+        .produto {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            border: 1px solid rgb(167, 163, 163);
+            border-radius: 16px;
+            padding: 8px;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 8px;
+            max-width: 28em;
+            margin: 1em;
+        }
+        @media all and (min-width:560px){
+            body { margin: 0 auto;} }
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-flow: row wrap;
+        }
+        .produto{
+            max-width: 28em;
+            margin: 1em;
+        }
+        img{
+            width: 250px;
+        }
+        header{
+            text-align: center;
+            font-family: fantasy;
+            font-size: 5em;
+            color: rgb(255, 255, 255);
+            background-color: rgb(153, 51, 56);
+        }
+        footer{
+            background-color: rgb(153, 51, 56);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        .nav{
+            display: flex;
+            background-color: rgb(1, 7, 14);
+            padding: 10px;
+            width: 100%;
+            
+        }
+        .ul {
+            display: flex;
+            float: right;
+            margin: 10px;
+            padding: 0;
+            color: aliceblue;
+           
+        }
+        .ul:hover{
+            background-color: white;
+            color: rgb(7, 7, 7);
+            font-size: 1.1em;
+            border-radius: 5px;
+            padding:1px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        Lojão da Construção
+        
+    </header>
+    <nav class="nav">
+        <ul >
+            <li class="ul"><a href="#"></a>HOME</li>
+            <li class="ul"><a href="#"></a>PRODUTOS</li>
+            <li class="ul"><a href="#"></a>ENTREGA</li>
+            <li class="ul"><a href="#"></a>FUNCIONAMENTO</li>
+        </ul>
+    </nav>
+
+
+    <article class="container">
+        <section class="produto">
+            <h1>Cimento Nassau CP-II</h1>
+            <img src="../imagens/cimento.jpg" alt="">
+               <ul>
+                <li>R$ <b>25,00</b> </li>
+                <li> 2x R$ <b>25,00</b> </li>
+                <li> Cód-0001</li>
+               </ul>
+                  <button type="button">Mais...</button>
+        </section>
+        <section class="produto">
+            <h1>Tijolo de Barro Simples</h1>
+            <img src="../imagens/tijolo.avif" alt="">
+               <ul>
+                <li>R$ <b>1,00</b> </li>
+                <li> 1x R$ <b>1,00</b> </li>
+                <li> Cód-0002</li>
+               </ul>
+                 <button type="button">Mais...</button>
+        </section>
+        <section class="produto">
+            <h1>Cal para pintura 8kg</h1>
+            <img src="../imagens/cal.jpg" alt="">
+               <ul>
+                <li>R$ <b>6,00</b> </li>
+                <li> 1x R$ <b>6,00</b> </li>
+                <li> Cód-0003</li>
+               </ul>
+                 <button type="button">Mais...</button>
+        </section>
+        <section class="produto">
+            <h1>Porcelanato 59x59</h1>
+            <img src="../imagens/porcelanato.webp" alt="">
+               <ul>
+                <li>R$ <b>102,00</b> </li>
+                <li> 3x R$ <b>34,00</b> </li>
+                <li> Cód-0004</li>
+               </ul>
+                 <button type="button">Mais...</button>
+        </section>
+        <section class="produto">
+            <h1>revestimento 43.7x63.1</h1>
+            <img src="../imagens/revestimento.png" alt="">
+               <ul>
+                <li>R$ <b>160,00</b> </li>
+                <li> 4x R$ <b>40,00</b> </li>
+                <li> Cód-0005</li>
+               </ul>
+                 <button type="button">Mais...</button>
+        </section>
+        <section class="produto">
+            <h1>Pendente Trieste</h1>
+            <img src="../imagens/pendente.webp" alt="">
+               <ul>
+                <li>R$ <b>100,00</b> </li>
+                <li> 4x R$ <b>25,00</b> </li>
+                <li> Cód-0006</li>
+               </ul>
+                 <button type="button">Mais...</button>
+        </section>
+
+        <section class="produto">
+            <h1>Caixa d`gua 1000l</h1>
+            <img src="../imagens/caixa d´agua.jpg" alt="">
+               <ul>
+                <li>R$ <b>1000,00</b> </li>
+                <li> 4x R$ <b>250,00</b> </li>
+                <li> Cód-0007/li>
+               </ul>
+
+        </section>
+        <section class="produto">
+            <h1>Bomba pressurizadora</h1>
+            <img src="../imagens/bomba p.jpg" alt="">
+               <ul>
+                <li>R$ <b>980,00</b> </li>
+                <li> 10x R$ <b>98,00</b> </li>
+                <li> Cód-0006</li>
+               </ul>
+                 <button type="button">Mais...</button>
+        </section>
+        
+        <section class="produto">
+            <h1>Carrinnho de Mão</h1>
+            <img src="../imagens/carrinho-mao.webp" alt="">
+               <ul>
+                <li>R$ <b>980,00</b> </li>
+                <li> 10x R$ <b>98,00</b> </li>
+                <li> Cód-0006</li>
+               </ul>
+                 <button type="button">Mais...</button>
+        </section>
+
+        <section class="produto">
+            <h1>Betoneira</h1>
+            <img src="../imagens/betoneira.avif" alt="">
+               <ul>
+                <li>R$ <b>980,00</b> </li>
+                <li> 10x R$ <b>98,00</b> </li>
+                <li> Cód-0006</li>
+               </ul>
+                 <button type="button">Mais...</button>
+        </section>
+        <section class="produto">
+            <h1>Ferramentas-Eletrica em geral</h1>
+            <img src="../imagens/ferramentas-Eletricas.avif" alt="">
+               <ul>
+                <li>R$ <b>980,00</b> </li>
+                <li> 10x R$ <b>98,00</b> </li>
+                <li> Cód-0006</li>
+               </ul>
+                 <button type="button">Mais...</button>
+        </section>
+        <section class="produto">
+            <h1>Ferramentas construção em geral</h1>
+            <img src="../imagens/ferramentas_contrucao.avif" alt="">
+               <ul>
+                <li>R$ <b>980,00</b> </li>
+                <li> 10x R$ <b>98,00</b> </li>
+                <li> Cód-0006</li>
+               </ul>
+                 <button type="button">Mais...</button>
+        </section>
+
+        
+
+
+
+
+
+
+
+
+
+    </article>
+    <footer>
+        <h3>Contatos:fone(099)99887765</h3>
+    </footer>
+    
+</body>
+</html>
