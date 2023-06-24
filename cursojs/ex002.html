@@ -7,7 +7,20 @@
 </head>
 <body>
 
-    s
+  <script>
+    //solicitar ao usuário o raio do circulo
+
+    let raio = prompt('insira o raio do circulo?');
+
+    //converter o raio de string para number
+    raio = parseFloat(raio);
+    //calcular a area do circulo
+
+    const area = Math.PI*Math.pow(raio,2);
+    //exibir o resultado na tela
+    //console.log(`A area do circulo é:`, area)
+    alert(`A area do circulo é: `+area.toFixed(2))
+  </script>
     
 </body>
 </html>
