@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div em CSS</title>
+    <style>
+        #topo{
+            background-color: rgb(7, 88, 120);
+          
+        }
+        #conteudo{
+            background: red;
+        }
+        #rodape {
+            background: green;
+        }
+        #assinatura {
+            background: rgb(128, 0, 62);
+        }
+        .produto {
+            background: gray;
+            margin: 10px;
+        }
+        .amarelo {
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="topo"> <!--div elemento tipo block(ocupa toda a linha)vai ficar um abaixo do outro-->
+
+        <img src="imagem1/kisspng-amazon-com-logo-brand-font-amazon-prime-amazon-store-badge-images-diagram-writing-sample-5bf8dab876c113.6584521015430355764864.jpg" alt="" width="200">
+        <ul>
+            <li>Home</li>
+            <li>produtos</li>
+            <li>Contatos</li>
+        </ul>
+    </div>
+
+    <div id="conteudo">
+        <div class="produto">
+            produto 1
+        </div>
+
+        <div class="produto">
+            produto 2
+        </div>
+
+        <div class="produto">
+            produto 3
+        </div>
+    </div>
+    <div id="rodape">
+        Todos os <span class="amarelo">direitos</span> resrvados
+    </div>
+    <!--
+    <span id="assinatura"> Span elemento tipo inline(fica um na frente do outro(curto))
+        Sivaldo
+    </span>
+   -->  
+    
+</body>
+</html>
