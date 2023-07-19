@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromulários</title>
+</head>
+<body>
+
+    <form action="" method="post">
+        <br>
+        <br>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="" placeholder="Digite seu nome" size="50" maxlength="50">
+        <br> <br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" size="8" maxlength="8">
+
+        <br><br>
+
+        <fieldset>
+            <label for="linguagem">Linguagem preferida</label>
+            <br><br>
+            <input type="checkbox" name="linguagem[]" value="C++">C++
+            <input type="checkbox" name="linguagem[]" value="C++">Python
+            <input type="checkbox" name="linguagem[]" value="php">PHP
+        </fieldset>
+        <label for="linguagemEscolhida">Linguagem que irá cursar agora</label>
+        <br><br>
+        <input type="radio" name="curso" value="c++">C++
+        <input type="radio" name="curso" value="php">PHP
+        <input type="radio" name="curso" value="java">JAVA
+<br><br>
+       <label for="escola">Escolha o curso:</label>
+        <select name="escola" id="">
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="html">HTML</option>
+            <option value="php">PHP</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" name="submit" id="submit" value="Enviar">
+
+
+
+    </form>
+    
+</body>
+</html>
