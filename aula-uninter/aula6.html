@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: gray;
+            margin: 0;
+            
+        }
+
+        .um {
+            height: 100px;
+            border: 1px solid red;
+            margin-bottom: 10px;
+            background: rgb(0, 255, 4);
+            text-align: center;
+        }
+
+        .dois {
+            height: auto;
+            border: 1px solid red;
+            margin-bottom: 10px;
+            width: 50%;
+            float: left;
+            text-align: center;
+            background: yellow;
+        }
+        .tres {
+            height: auto;
+            border: 1px solid red;
+            width: 40%;
+            text-align: center;
+            float: right;
+            background: rgb(255, 0, 60);
+        }
+        .quatro {
+            height: auto;
+            border: 1px solid orange;
+            clear: both;
+            background: rgb(255, 0, 60);
+            text-align: center;
+           
+        }
+        .quatro img {
+            width: 600px;
+            height: 200px;
+        }
+        nav {
+            border: 1px solid white;
+            background: url(../imagens/betoneira.avif);
+           
+        }
+
+
+    </style>
+</head>
+<body>
+  <nav>
+    <div class="um">
+        um
+    </div>
+    <div class="dois">
+        <h1>titulo 1</h1>
+        <h2>titulo 2</h2>
+        <h3>titulo 3</h3>
+        <h4>titulo 4</h4>
+        <h5>titulo 5</h5>
+        <h6>titulo 5</h6>
+    
+        <h2>Listas não ordenadas</h2>
+        <ul>
+            <li>lista 1</li>
+            <li>lista 2</li>
+            <li>lista 3</li>
+            <li>lista 4</li>
+            <li>lista 5</li>
+            <li>lista 6</li>
+        </ul>
+    
+        <h2>listas ordenadas</h2>
+        <ol>
+    
+            <li>lista</li>
+            <li>lista</li>
+            <li>lista</li>
+            <li>lista</li>
+            <li>lista</li>
+            <li>lista</li>
+        </ol>
+    </div>
+    <div class="tres">
+        <form action="" method="get">
+            <table>
+               <tr>
+                   <th><label for="nome">Nome:</label></th>
+                   <td><input type="text" name="nome" id="nome"></td>
+               </tr>
+               <tr>
+                   <th><label for="email">E-mail:</label></th>
+                   <td><input type="text" name="email" id="email"></td>
+               </tr>
+       
+               <tr>
+                   <th><label for="msg">Didite sua Mensagem:</label></th>
+                   <td><textarea name="msg" id="msg" cols="21" rows="5"></textarea></td>
+               </tr>
+       
+               <tr>
+                   <td></td>
+                   <td><button>Enviar</button></td>
+               </tr>
+       
+       
+            </table>
+       
+       
+           </form>
+    </div>
+    <div class="quatro">
+        <img src="../imagem/Design sem nome.png" alt="">
+    </div>
+   
+  </nav>
+    
+</body>
+</html>
