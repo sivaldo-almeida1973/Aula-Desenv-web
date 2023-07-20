@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatação em CSS psudo classe</title>
+    <style>
+        a.estilo1:link{color: red;}
+        a.estilo1:visited{color: rgb(0, 255, 64);}
+        a.estilo1:hover{color: rgb(255, 230, 0);}
+
+        a.estilo2:link{color: red;}
+        a.estilo2:visited{color: rgb(0, 255, 64);}
+        a.estilo2:hover{font-size: 150%;}
+
+        a.estilo3:link{color: red;}
+        a.estilo3:visited{color: rgb(17, 0, 255);}
+        a.estilo3:hover{color: rgb(0, 255, 26);}
+
+        a.estilo4:link{color: red;}
+        a.estilo4:visited{color: rgb(0, 34, 255);}
+        a.estilo4:hover{font-family: 'Courier New', Courier, monospace;}
+
+        a.estilo5:link{color: red; text-decoration: none;}
+        a.estilo5:visited{color: rgb(0, 255, 64); text-decoration: none;}
+        a.estilo5:hover{text-decoration: underline;}
+
+
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quam, recusandae aperiam excepturi vitae quos provident nesciunt? Nesciunt corrupti, accusamus pariatur libero eligendi fugiat dignissimos? Temporibus error natus sunt illum.</p>
+
+    <p>
+        <a class="estilo1" href="">esta muda de cor</a> <br>
+        <a class="estilo2" href="">esta muda de tamaho a letra</a> <br>
+        <a class="estilo3" href="">esta muda de cor de fundo</a> <br>
+        <a class="estilo4" href="">esta muda tipo de letra</a> <br>
+        <a class="estilo5" href="">esta muda decoração do texto</a>
+
+    </p>
+    
+</body>
+</html>
