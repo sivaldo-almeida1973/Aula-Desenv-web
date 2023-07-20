@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis em CSS</title>
+    <style>
+        :root {
+            --dourado: orange;
+            --branco: rgb(248, 248, 247);
+        }
+        body {
+            background-color: var(--dourado);
+        }
+        h2 {
+            border: 2px solid var(--dourado);
+        }
+
+        .container {
+            color: var(--dourado);
+            background: var(--branco);
+            padding: 15px;
+        }
+
+        button {
+            background-color: var(--branco);
+            color: var(--dourado);
+            padding: 5px;
+            border: 1px solid var(--dourado);
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Utilizando a Função var()</h1>
+
+    <div class="container">
+        <h2>Lorem, ipsum dolor.</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore est nam optio libero facere nobis earum alias consequuntur dolorum laborum, soluta unde molestias deserunt fuga corrupti commodi pariatur quasi explicabo!</p>
+    </div>
+    <p>
+        <button>sim</button>
+        <button>Não</button>
+    </p>
+    
+</body>
+</html>
